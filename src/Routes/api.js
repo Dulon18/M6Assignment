@@ -3,15 +3,15 @@ const router = express.Router();
 
 // controller functions
 const blogController = require('./src/controllers/blogController');
-const blogDetailsController = require('./src/controllers/blogDetailsController.js');
-const commentController = require('./src/controllers/commentController.js');
-const messageController = require('./src/controllers/messageController.js');
-const portfolioController = require('./src/controllers/portfolioController.js');
-const profitController = require('./src/controllers/profitController.js');
-const productController = require('./src/controllers/productController.js');
-const projectController = require('./src/controllers/projectController.js');
-const serviceController = require('./src/controllers/serviceController.js');
-const titleController = require('./src/controllers/titleController.js');
+const blogDetailsController = require('./src/controllers/blogDetailsController');
+const commentController = require('./src/controllers/commentController');
+const messageController = require('./src/controllers/messageController');
+const portfolioController = require('./src/controllers/portfolioController');
+const profitController = require('./src/controllers/profitController');
+const productController = require('./src/controllers/productController');
+const projectController = require('./src/controllers/projectController');
+const serviceController = require('./src/controllers/serviceController');
+const titleController = require('./src/controllers/titleController');
 
 
 const controllers = [
